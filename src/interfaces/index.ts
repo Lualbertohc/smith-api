@@ -9,3 +9,21 @@ export interface INewProduct {
 export interface IProduct {
   orderId: number | null,
 }
+
+export interface IUser {
+  username: string,
+  vocation: string,
+  level: number,
+  password: string,
+  id?: number,
+}
+
+export interface ILogin {
+  username: string,
+  password: string,
+}
+
+export interface IJwt {
+  username: string,
+  id?: number,
+}
