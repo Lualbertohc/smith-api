@@ -12,8 +12,6 @@ app.use('/products', productRouter);
 
 app.use('/users', userRouter);
 
-// app.use('/orders', orderRouter);
-
 app.use('/login', loginRouter);
 
 export default app;

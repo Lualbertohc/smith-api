@@ -9,8 +9,9 @@ export default class ProductController {
   }
 
   public create = async (request: Request, response: Response) => {
-    const result = await this.service.create(request.body);
-    return response.status(201).json(result);
+    const { stts, message } = await this.service.create(request.body);
+    if (stts) return response.status(stts).json({ message });
+    return response.status(201).json(message);
   };
 
   public get = async (_request: Request, response: Response) => {
