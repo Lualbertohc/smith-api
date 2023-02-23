@@ -27,3 +27,9 @@ export interface IJwt {
   username: string,
   id?: number,
 }
+
+export interface IOrder {
+  id: number,
+  userId: number,
+  productId: number[];
+}
