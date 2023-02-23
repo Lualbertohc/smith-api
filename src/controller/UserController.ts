@@ -9,7 +9,8 @@ export default class UserController {
   }
 
   public newUser = async (request: Request, response: Response) => {
-    const result = await this.service.newUser(request.body);
-    return response.status(201).json({ token: result });
+    const { stts, message } = await this.service.newUser(request.body);
+    if (stts) return response.status(stts).json({ message });
+    return response.status(201).json({ token: message });
   };
 }

@@ -1,7 +1,6 @@
 import express from 'express';
 import productRouter from './routers/productRounter';
 import userRouter from './routers/userRouter';
-// import orderRouter from './routers/orderRouter';
 import loginRouter from './routers/loginRouter';
 
 const app = express();
