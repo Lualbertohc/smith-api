@@ -11,11 +11,11 @@ export interface IProduct {
 }
 
 export interface IUser {
+  id?: number,
   username: string,
+  password: string,
   vocation: string,
   level: number,
-  password: string,
-  id?: number,
 }
 
 export interface ILogin {
