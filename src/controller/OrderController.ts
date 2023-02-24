@@ -12,4 +12,12 @@ export default class OrderController {
     const result = await this.service.getAll();
     return response.status(200).json(result);
   };
+
+  public register = async (request: Request, response: Response) => {
+    const { id } = response.locals.user;
+    const { productsIds } = request.body;
+    const { stts, message } = await this.service.register(id, productsIds);
+    if (stts) return response.status(stts).json(message);
+    return response.status(201).json(message);
+  };
 }

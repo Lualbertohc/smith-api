@@ -2,7 +2,7 @@ import Joi from 'joi';
 import UserModel from '../models/UserModel';
 import connection from '../models/connection';
 import { IUser } from '../interfaces';
-import generate from '../utils/token';
+import { generate } from '../utils/token';
 
 const schema = Joi.object({
   username: Joi.string().min(3),

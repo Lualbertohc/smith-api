@@ -1,7 +1,7 @@
 import LoginModel from '../models/LoginModel';
 import connection from '../models/connection';
 import { ILogin } from '../interfaces';
-import generate from '../utils/token';
+import { generate } from '../utils/token';
 
 export default class ProductService {
   public model: LoginModel;
