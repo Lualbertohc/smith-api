@@ -1,6 +1,8 @@
 <div align="center">
-<img align="center" alt="Header" src="https://media.tenor.com/TkCkn5RzsmkAAAAC/smith-giant-blacksmith.gif" />
+<img align="center" alt="Header" src="https://64.media.tumblr.com/tumblr_ltpd3lHezI1qkf4s8o1_500.gif" />
 </div>
+
+<h1 align="center"> :hammer: Projeto Blacksmith API :fire: </h1>
 
 Esta aplicação simula uma loja de itens medievais no formato de uma API, utilizando Typescript. Foi desenvolvido todas as camadas da aplicação (Models, Service e Controllers) no código e, por meio dessa API, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (CRUD).
 
