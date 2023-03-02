@@ -1,13 +1,23 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# :construction: README em construção ! :construction:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<h1>🛠 Tecnologias usadas neste projeto</h1>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" height=40/>
+
+<p>
+Para ter acesso ao projeto basta obter o código fonte
+</p>
+
+```sh
+git clone git@github.com:Lualbertohc/smith-api.git
+```
+
+<p>
+Instale as dependências de desenvolvimento. Verifique o mecanismo package.json para verificar as versões de nó testadas e compatíveis.
+</p>
+
+```sh
+npm install
+```
+
+
