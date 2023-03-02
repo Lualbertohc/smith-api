@@ -1,5 +1,5 @@
 <div align="center">
-<img align="center" alt="Header" src="https://64.media.tumblr.com/tumblr_ltpd3lHezI1qkf4s8o1_500.gif" />
+<img align="center" alt="Header" src="https://64.media.tumblr.com/352f803ec6647a53df4d779cb8e90324/tumblr_mydohbeMPo1s42orjo4_500.gif" />
 </div>
 
 <h1 align="center"> :hammer: Projeto Blacksmith API :fire: </h1>
