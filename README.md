@@ -23,7 +23,7 @@ git clone git@github.com:Lualbertohc/smith-api.git
 ```
 
 <p>
-Instale as dependências de desenvolvimento
+Verifique o mecanismo package.json e instale as dependências de desenvolvimento
 </p>
 
 ```sh
