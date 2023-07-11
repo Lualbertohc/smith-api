@@ -4,7 +4,7 @@
 
 <h1 align="center"> :hammer: Blacksmith API :fire: </h1>
 
-Esta é uma API desenvolvida em TypeScript e Express para gerenciar produtos medievais. Ela utiliza um banco de dados MySQL, para armazenar e recuperar os dados através de SQL. O projeto foi estruturado seguindo uma abordagem de camadas, dividindo a lógica em modelos (Models), serviços (Services) e controladores (Controllers), permitindo a realização das operações básicas de um banco de dados: Criação, Leitura, Atualização e Exclusão (CRUD).
+Esta é uma API desenvolvida em TypeScript e Express para gerenciar produtos. Ela utiliza um banco de dados MySQL, para armazenar e recuperar os dados através de SQL. O projeto foi estruturado seguindo uma abordagem de camadas, dividindo a lógica em modelos (Models), serviços (Services) e controladores (Controllers), permitindo a realização das operações básicas de um banco de dados: Criação, Leitura, Atualização e Exclusão (CRUD).
 
 A aplicação é organizada em modelos, serviços e controladores, promovendo uma separação clara de responsabilidades.
 Com esta API, você poderá realizar operações CRUD em produtos medievais, possibilitando a criação, leitura, atualização e exclusão dos registros. É um projeto ideal para quem deseja aprender mais sobre o desenvolvimento de APIs em TypeScript e Express, além de explorar o uso de bancos de dados SQL para persistência de dados.
