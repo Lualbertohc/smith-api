@@ -11,11 +11,12 @@ Com esta API, você poderá realizar operações CRUD em produtos medievais, pos
 
 <h1>🛠 Tecnologias usadas neste projeto</h1>
 
-<p align="center">
-<img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" height=40/>
-<img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" height=40/>
-<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" height=40/>
-</p>
+- SQL e MySQL: Banco de dados relacional utilizado para armazenar os dados de produtos e vendas.
+- JavaScript: Linguagem de programação utilizada para desenvolver a API.
+- Express: Framework web utilizado para criar a API de gerenciamento de vendas.
+- Docker: Plataforma que facilita o empacotamento e a implantação da aplicação em contêineres isolados.
+- Estrutura MSC: O projeto é organizado nas camadas Model, Service e Controller, promovendo uma separação clara de responsabilidades.
+- Padrões REST: A API segue os princípios e padrões REST para uma comunicação eficiente e padronizada.
 
 <p>
 Para ter acesso ao projeto basta obter o código fonte
