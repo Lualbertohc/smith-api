@@ -19,7 +19,7 @@ Com esta API, você poderá realizar operações CRUD em produtos medievais, pos
 - Padrões REST: A API segue os princípios e padrões REST para uma comunicação eficiente e padronizada.
 
 <p>
-Para ter acesso ao projeto basta obter o código fonte
+Para ter acesso ao projeto em sua máquina e testar a aplicação basta obter o código fonte
 </p>
 
 ```sh
@@ -33,5 +33,6 @@ Verifique o mecanismo package.json e instale as dependências de desenvolvimento
 ```sh
 npm install
 ```
+As queries SQL estão no repositório src/models
 
 
